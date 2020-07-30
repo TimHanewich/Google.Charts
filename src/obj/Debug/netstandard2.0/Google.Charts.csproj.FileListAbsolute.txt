@@ -1,9 +1,0 @@
-C:\Users\TaHan\Downloads\Google.Charts\src\bin\Debug\netstandard2.0\Google.Charts.deps.json
-C:\Users\TaHan\Downloads\Google.Charts\src\bin\Debug\netstandard2.0\Google.Charts.dll
-C:\Users\TaHan\Downloads\Google.Charts\src\bin\Debug\netstandard2.0\Google.Charts.pdb
-C:\Users\TaHan\Downloads\Google.Charts\src\obj\Debug\netstandard2.0\Google.Charts.csprojAssemblyReference.cache
-C:\Users\TaHan\Downloads\Google.Charts\src\obj\Debug\netstandard2.0\Google.Charts.csproj.CoreCompileInputs.cache
-C:\Users\TaHan\Downloads\Google.Charts\src\obj\Debug\netstandard2.0\Google.Charts.AssemblyInfoInputs.cache
-C:\Users\TaHan\Downloads\Google.Charts\src\obj\Debug\netstandard2.0\Google.Charts.AssemblyInfo.cs
-C:\Users\TaHan\Downloads\Google.Charts\src\obj\Debug\netstandard2.0\Google.Charts.dll
-C:\Users\TaHan\Downloads\Google.Charts\src\obj\Debug\netstandard2.0\Google.Charts.pdb

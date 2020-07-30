@@ -157,6 +157,7 @@ namespace Google.Charts
                 throw new Exception("Chart download failed.");
             }
             Stream s = await hrm.Content.ReadAsStreamAsync();
+            s.Seek(0, SeekOrigin.Begin);
             return s;
         }
 

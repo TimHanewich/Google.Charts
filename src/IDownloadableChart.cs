@@ -4,7 +4,7 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using System.IO;
 
-namespace Google.ImageCharts
+namespace TimHanewich.Google.Charts
 {
     public interface IDownloadableChart
     {

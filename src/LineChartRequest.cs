@@ -5,7 +5,7 @@ using System.Net.Http;
 using System.IO;
 using System.Threading.Tasks;
 
-namespace Google.ImageCharts
+namespace TimHanewich.Google.Charts
 {
     public class LineChartRequest : ChartRequest, IDownloadableChart
     {

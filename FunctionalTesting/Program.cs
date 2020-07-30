@@ -1,5 +1,5 @@
 ﻿using System;
-using Google.ImageCharts;
+using TimHanewich.Google.Charts;
 using System.Collections.Generic;
 using System.IO;
 

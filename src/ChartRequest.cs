@@ -1,6 +1,6 @@
 using System;
 
-namespace Google.ImageCharts
+namespace TimHanewich.Google.Charts
 {
     public class ChartRequest
     {

@@ -53,8 +53,11 @@ namespace Google.Charts
             AxisY.Minimum = min;
         }
 
-        public HttpRequestMessage CreateHttpRequestMessage()
+        public async Task<Stream> DownloadChartAsync()
         {
+
+            #region "Create Http Request"
+
             List<KeyValuePair<string, string>> KVPs = new List<KeyValuePair<string, string>>();
 
             #region "Chart Title"
@@ -144,14 +147,10 @@ namespace Google.Charts
             req.Method = HttpMethod.Post;
             req.Content = fuec;
 
-            return req;
+            #endregion
 
-        }
 
-        public async Task<Stream> DownloadChartAsync()
-        {
             HttpClient hc = new HttpClient();
-            HttpRequestMessage req = CreateHttpRequestMessage();
             HttpResponseMessage hrm = await hc.SendAsync(req);
             if (hrm.StatusCode != HttpStatusCode.OK)
             {

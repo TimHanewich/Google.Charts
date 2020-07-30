@@ -8,7 +8,6 @@ namespace Google.Charts
 {
     public interface IDownloadableChart
     {
-        HttpRequestMessage CreateHttpRequestMessage();
         Task<Stream> DownloadChartAsync();
     }
 }

@@ -25,11 +25,12 @@ namespace FunctionalTesting
             lcr.AxisX.Maximum = 10;
             lcr.AxisY.Minimum = 5;
             lcr.AxisY.Maximum = 15;
+            lcr.AxisX.Label = "X Axis";
+            lcr.AxisY.Label = "Y Axis";
 
             Stream s = lcr.DownloadChartAsync().Result;
 
             Stream tocopyto = System.IO.File.OpenWrite(path);
-            s.Seek(0, SeekOrigin.Begin);
             s.CopyTo(tocopyto);
             s.Dispose();
             tocopyto.Dispose();

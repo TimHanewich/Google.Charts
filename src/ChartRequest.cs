@@ -1,6 +1,6 @@
 using System;
 
-namespace Google.Charts
+namespace Google.ImageCharts
 {
     public class ChartRequest
     {

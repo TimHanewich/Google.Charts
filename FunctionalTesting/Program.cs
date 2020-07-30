@@ -1,5 +1,5 @@
 ﻿using System;
-using Google.Charts;
+using Google.ImageCharts;
 using System.Collections.Generic;
 using System.IO;
 

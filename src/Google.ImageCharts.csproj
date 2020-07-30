@@ -7,7 +7,7 @@
     <Description>Lightweight library for interfacing with Google's Image Chart API</Description>
     <Copyright>Tim Hanewich</Copyright>
     <PackageLicenseFile>License.md</PackageLicenseFile>
-    <RepositoryUrl>https://github.com/TimHanewich/Google.Charts</RepositoryUrl>
+    <RepositoryUrl>https://github.com/TimHanewich/Google.ImageCharts</RepositoryUrl>
     <PackageTags>google,charts,google charts,google api,api</PackageTags>
     <AssemblyVersion>0.0.0.0</AssemblyVersion>
     <PackageIcon>google_icon.png</PackageIcon>

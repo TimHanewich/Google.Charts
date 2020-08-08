@@ -28,6 +28,13 @@ namespace FunctionalTesting
             lcr.AxisX.Label = "X Axis";
             lcr.AxisY.Label = "Y Axis";
 
+            KeyValuePair<string, string>[] vals = lcr.GenerateFormContent();
+            foreach (KeyValuePair<string, string> kvp in vals)
+            {
+                Console.WriteLine(kvp.Key + " - " + kvp.Value);
+            }
+            Console.ReadLine();
+
             Stream s = lcr.DownloadChartAsync().Result;
 
             Stream tocopyto = System.IO.File.OpenWrite(path);

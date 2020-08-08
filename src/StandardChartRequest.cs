@@ -113,6 +113,12 @@ namespace TimHanewich.Google.Charts
 
             #endregion
 
+            #region "Get the paramaters from my base"
+
+            KVPs.AddRange(base.GenerateFormContent());
+
+            #endregion
+
             return KVPs.ToArray();
         }
     }

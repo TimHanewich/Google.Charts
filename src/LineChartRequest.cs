@@ -17,7 +17,11 @@ namespace TimHanewich.Google.Charts
 
             List<KeyValuePair<string, string>> KVPs = new List<KeyValuePair<string, string>>();
 
+            //Do mine -- the chart type
             KVPs.Add(new KeyValuePair<string, string>("cht", "lc"));
+
+            //Get paramaters from my base
+            KVPs.AddRange(base.GenerateFormContent());
 
             return KVPs.ToArray();
         }

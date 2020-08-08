@@ -25,7 +25,7 @@ namespace FunctionalTesting
             lcr.AxisX.Maximum = 10;
             lcr.AxisY.Minimum = 5;
             lcr.AxisY.Maximum = 15;
-            lcr.AxisX.Label = "X Axis";
+            lcr.AxisX.Label = "XXX";
             lcr.AxisY.Label = "Y Axis";
 
             KeyValuePair<string, string>[] vals = lcr.GenerateFormContent();

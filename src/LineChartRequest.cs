@@ -31,19 +31,14 @@ namespace TimHanewich.Google.Charts
 
             #region "Create Http Request"
 
-            List<KeyValuePair<string, string>> KVPs = new List<KeyValuePair<string, string>>();
-
-            
-
             //Prepare the Request message
-            FormUrlEncodedContent fuec = new FormUrlEncodedContent(KVPs.ToArray());
+            FormUrlEncodedContent fuec = new FormUrlEncodedContent(GenerateFormContent());
             HttpRequestMessage req = new HttpRequestMessage();
-            req.RequestUri = new Uri("https://chart.googleapis.com/chart?");
+            req.RequestUri = new Uri(ChartRequest.RequestEndpoint);
             req.Method = HttpMethod.Post;
             req.Content = fuec;
 
             #endregion
-
 
             HttpClient hc = new HttpClient();
             HttpResponseMessage hrm = await hc.SendAsync(req);

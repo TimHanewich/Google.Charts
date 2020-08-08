@@ -18,7 +18,7 @@ namespace FunctionalTesting
             Vals.Add(15);
             Vals.Add(60);
             
-            LineChartRequest lcr = new LineChartRequest();
+            BarChartRequest lcr = new BarChartRequest();
             lcr.LoadData(Vals.ToArray());
             lcr.ShowAxes = true;
             lcr.AxisX.Minimum = 0;
